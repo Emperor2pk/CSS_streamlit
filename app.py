@@ -73,19 +73,6 @@ st.markdown('<hr style="border-top: 3px solid black;">', unsafe_allow_html=True)
 st.markdown("#### The dry adhesive state;")
 
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Create sample data
-data = {'% Concentration of CNT (w/w CPI)': [0, 0.5, 1, 3, 5, 7, 10],
-        'Adhesive Strength (MPa)': [5.98, 9.20, 8.69, 8.17, 7.01, 5.25, 3.28],
-        'Error Bar (MPa)': [0.28, 0.32, 0.41, 0.14, 0.29, 0.4, 0.22]}
-df = pd.DataFrame(data)
-
-# Set figure size
-fig, ax = plt.subplots(figsize=(8, 6))
-
 
 import streamlit as st
 import pandas as pd
